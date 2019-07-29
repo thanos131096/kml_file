@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>test.kml</name>
+	<open>1</open>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>994f4f4f</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>ccffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>ccffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>994f4f4f</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="population_data_per_block.1">
+		<name>test</name>
+		<description><![CDATA[<h4>Κέντρο Πάτρας</h4>
+		<ul class="textattributes">
+  
+
+  <li><strong><span class="atr-name">Οικοδομικά τετράγωνα</span>:</strong> <span class="atr-value">12</span></li>
+</ul>]]></description>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						21.73407960115654,38.24304752458799,0 21.73817182727455,38.24627669478675,0 21.73471319883695,38.24901128932691,0 21.73304919355474,38.24778694804208,0 21.73135220359169,38.24669214443918,0 21.73032954506529,38.24619582892723,0 21.73407960115654,38.24304752458799,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>1</name>
+		<description><![CDATA[<h4>population_data_per_block</h4>
+		<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">2725</span></li>
+  <li><strong><span class="atr-name">ESYE_CODE</span>:</strong> <span class="atr-value">2377</span></li>
+  <li><strong><span class="atr-name">Population</span>:</strong> <span class="atr-value">81</span></li>
+</ul>]]></description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						21.73483593104754,38.24370104193593,0 21.73372243782735,38.24462753359477,0 21.73294100336138,38.24401502507764,0 21.73407205622496,38.24306770754426,0 21.73483593104754,38.24370104193593,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>2</name>
+		<description><![CDATA[<h4>population_data_per_block</h4>
+		<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">2725</span></li>
+  <li><strong><span class="atr-name">ESYE_CODE</span>:</strong> <span class="atr-value">2377</span></li>
+  <li><strong><span class="atr-name">Population</span>:</strong> <span class="atr-value">100</span></li>
+</ul>]]></description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						21.73285629135533,38.24414499244086,0 21.73366753419289,38.24466156344032,0 21.73247348382042,38.24570623559421,0 21.73171837639721,38.24509317817835,0 21.73285629135533,38.24414499244086,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>3</name>
+		<description><![CDATA[<h4>population_data_per_block</h4>
+		<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">2725</span></li>
+  <li><strong><span class="atr-name">ESYE_CODE</span>:</strong> <span class="atr-value">2377</span></li>
+  <li><strong><span class="atr-name">Population</span>:</strong> <span class="atr-value">96</span></li>
+</ul>]]></description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						21.73161685070102,38.24515621386691,0 21.73238304977298,38.24576930047645,0 21.73136702649855,38.24667004228371,0 21.73041149842111,38.24617536091272,0 21.73161685070102,38.24515621386691,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>4</name>
+		<description><![CDATA[<h4>population_data_per_block</h4>
+		<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">2725</span></li>
+  <li><strong><span class="atr-name">ESYE_CODE</span>:</strong> <span class="atr-value">2377</span></li>
+  <li><strong><span class="atr-name">Population</span>:</strong> <span class="atr-value">140</span></li>
+</ul>]]></description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						21.7331112228286,38.24526322550541,0 21.73384502791256,38.24580347433246,0 21.73220724460438,38.24715012590508,0 21.73156086610728,38.24663067636475,0 21.7331112228286,38.24526322550541,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>5</name>
+		<description><![CDATA[<h4>population_data_per_block</h4>
+		<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">2725</span></li>
+  <li><strong><span class="atr-name">ESYE_CODE</span>:</strong> <span class="atr-value">2377</span></li>
+  <li><strong><span class="atr-name">Population</span>:</strong> <span class="atr-value">81</span></li>
+</ul>]]></description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						21.73391041705066,38.24587966624812,0 21.73443073834387,38.24621532956438,0 21.73411881600111,38.24649775218025,0 21.73440650107004,38.24675006766304,0 21.73312315467111,38.24778885417773,0 21.73231570254359,38.24720589270174,0 21.73391041705066,38.24587966624812,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>6</name>
+		<description><![CDATA[<h4>population_data_per_block</h4>
+		<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">2725</span></li>
+  <li><strong><span class="atr-name">ESYE_CODE</span>:</strong> <span class="atr-value">2377</span></li>
+  <li><strong><span class="atr-name">Population</span>:</strong> <span class="atr-value">81</span></li>
+</ul>]]></description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						21.73390006509609,38.24840592718775,0 21.73321980293522,38.24786625724893,0 21.73454629494342,38.24676310099758,0 21.73479935689821,38.24694837167561,0 21.73567535739953,38.24626557645554,0 21.73612193069545,38.2466007914833,0 21.73390006509609,38.24840592718775,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>7</name>
+		<description><![CDATA[<h4>population_data_per_block</h4>
+		<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">2725</span></li>
+  <li><strong><span class="atr-name">ESYE_CODE</span>:</strong> <span class="atr-value">2377</span></li>
+  <li><strong><span class="atr-name">Population</span>:</strong> <span class="atr-value">81</span></li>
+</ul>
+]]></description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						21.73557846214935,38.24718626130596,0 21.73630111744253,38.24771853203876,0 21.73496662005462,38.2487703290133,0 21.73462528596362,38.24853335688918,0 21.73434459882837,38.24871707063504,0 21.73400624479838,38.24844343829446,0 21.73557846214935,38.24718626130596,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>8</name>
+		<description><![CDATA[<h4>population_data_per_block</h4>
+		<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">2725</span></li>
+  <li><strong><span class="atr-name">ESYE_CODE</span>:</strong> <span class="atr-value">2377</span></li>
+  <li><strong><span class="atr-name">Population</span>:</strong> <span class="atr-value">81</span></li>
+</ul>]]></description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						21.73739328226817,38.24571040606747,0 21.73812162646089,38.24625159593066,0 21.7364138922776,38.2476191895426,0 21.73569208527474,38.24710458014309,0 21.73739328226817,38.24571040606747,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>9</name>
+		<description><![CDATA[<h4>population_data_per_block</h4>
+		<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">2725</span></li>
+  <li><strong><span class="atr-name">ESYE_CODE</span>:</strong> <span class="atr-value">2377</span></li>
+  <li><strong><span class="atr-name">Population</span>:</strong> <span class="atr-value">81</span></li>
+</ul>]]></description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						21.73602756943185,38.24598130193273,0 21.7358299454383,38.24576024392754,0 21.73661290348038,38.2450749105623,0 21.73733486630073,38.24562210178073,0 21.7362053465432,38.24654144233072,0 21.73579392295566,38.24621221138179,0 21.73602756943185,38.24598130193273,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>10</name>
+		<description><![CDATA[<h4>population_data_per_block</h4>
+		<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">2725</span></li>
+  <li><strong><span class="atr-name">ESYE_CODE</span>:</strong> <span class="atr-value">2377</span></li>
+  <li><strong><span class="atr-name">Population</span>:</strong> <span class="atr-value">81</span></li>
+</ul>]]></description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						21.7339298113858,38.24581313136595,0 21.73571629558261,38.24438929601002,0 21.73653853011312,38.24498988964192,0 21.73572199217925,38.24572196365568,0 21.7354379348907,38.24545683123515,0 21.73448740837818,38.24621888952971,0 21.7339298113858,38.24581313136595,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>12</name>
+		<description><![CDATA[<h4>population_data_per_block</h4>
+		<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">2725</span></li>
+  <li><strong><span class="atr-name">ESYE_CODE</span>:</strong> <span class="atr-value">2377</span></li>
+  <li><strong><span class="atr-name">Population</span>:</strong> <span class="atr-value">81</span></li>
+</ul>]]></description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						21.73493163683182,38.24375981369368,0 21.73564981598369,38.24430653969854,0 21.73394773860455,38.2457101518693,0 21.73321750616817,38.24520875085963,0 21.73493163683182,38.24375981369368,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
